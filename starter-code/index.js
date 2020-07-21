@@ -12,19 +12,6 @@ class SortedList {
     this.length += sortedList.length;
     return sortedList;
   }
-  /*
-    add(item) {
-    this.items.sort(function (a, b) {
-      return a - b;
-    }
-    if (item) {
-    this.items.push(item);
-    this.items.sort(function (a, b) {
-      return a - b;
-    });
-  } return this.items;
-  }
-  */
 
   get(pos) {
     if (pos > this.items.length) {
